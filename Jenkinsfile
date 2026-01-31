@@ -19,7 +19,6 @@ pipeline {
                 echo "Verifying Environment..."
                 sh 'python3 --version'
                 sh 'robot --version'
-                sh 'chromium --version'
             }
         }
 
